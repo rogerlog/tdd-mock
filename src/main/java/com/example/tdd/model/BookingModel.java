@@ -2,7 +2,7 @@ package com.example.tdd.model;
 
 import java.time.LocalDate;
 
-public class BoockingModel {
+public class BookingModel {
 
     private String id;
     private String reserveName;
@@ -10,7 +10,7 @@ public class BoockingModel {
     private LocalDate checkout;
     private int numberGuests;
 
-    public BoockingModel(String id, String reserveName, LocalDate checkIn, LocalDate checkout, int numberGuests) {
+    public BookingModel(String id, String reserveName, LocalDate checkIn, LocalDate checkout, int numberGuests) {
         this.id = id;
         this.reserveName = reserveName;
         this.checkIn = checkIn;
